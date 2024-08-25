@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambiamos a "flex-start" para alinear arriba */
+    height: 100vh;
+    margin: 0;
+    background-color: #bb4a79; /* Cambia el color de fondo según tus preferencias */
+}
+
+/* Estilos para la caja de inventario */
+.inventario-box {
+    border: 2px solid #ca1aad;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #e00f0f; /* Cambia el color de fondo según tus preferencias */
+    box-shadow: 0 4px 6px rgba(212, 59, 59, 0.1); /* Agregamos una sombra suave */
+    margin-top: 20px; /* Espacio entre la caja y la parte superior */
+}
+
+/* Estilos adicionales para otros elementos (puedes personalizarlos) */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
